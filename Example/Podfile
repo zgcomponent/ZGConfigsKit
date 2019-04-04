@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZGConfigsKit_Example' do
+  pod 'ZGConfigsKit', :path => '../'
+
+  target 'ZGConfigsKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
